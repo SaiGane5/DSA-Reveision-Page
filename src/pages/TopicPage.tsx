@@ -776,9 +776,9 @@ How are variables stored in memory, and how does the stack differ from the heap 
   When is it appropriate to use a greedy algorithm, and when should you use dynamic programming instead?
     `,
   },
-  'hashing': {
-  title: 'Hashing',
-  content: `
+  hashing: {
+    title: 'Hashing',
+    content: `
 ## Hashing
 
 Hashing is a technique used to uniquely identify a specific object from a group of similar objects. It uses a hash function to convert input data into a fixed-size string of characters, which is typically a hash code.
@@ -849,11 +849,11 @@ Design a hash map from scratch and implement the insert and get methods.
 ### Interview Question
 
 Explain how you would handle collisions in a hash table.
-`,
-},
-'bit-manipulation': {
-  title: 'Bit Manipulation',
-  content: `
+    `,
+  },
+  bitmanipulation: {
+    title: 'Bit Manipulation',
+    content: `
 ## Bit Manipulation
 
 Bit manipulation refers to the act of algorithmically manipulating bits or binary digits. It is a powerful tool in programming that can optimize algorithms and improve performance.
@@ -910,11 +910,11 @@ Write a function to determine if two integers have opposite signs.
 ### Interview Question
 
 How can you swap two numbers using bit manipulation?
-`,
-},
-'heap': {
-  title: 'Heap and Priority Queue',
-  content: `
+    `,
+  },
+  heap: {
+    title: 'Heap and Priority Queue',
+    content: `
 ## Heap and Priority Queue
 
 A heap is a special tree-based data structure that satisfies the heap property. A priority queue is an abstract data type that operates similar to a regular queue but prioritizes elements based on their priority.
@@ -991,8 +991,8 @@ Implement a priority queue using a heap.
 ### Interview Question
 
 Explain the difference between a min heap and a max heap.
-`,
-},
+    `,
+  },
 };
 
 const TopicPage: React.FC = () => {
