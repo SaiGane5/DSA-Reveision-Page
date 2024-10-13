@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-// Example list of topics (you can import or reuse from your actual topic data)
+// Example list of topics (including the new topics)
 const topics = [
   {
     id: 'arrays',
@@ -17,15 +17,29 @@ const topics = [
   {
     id: 'control-flow',
     title: 'Control Flow',
-    content:
-      'Control flow refers to the order in which instructions are executed.',
+    content: 'Control flow refers to the order in which instructions are executed.',
   },
   {
     id: 'sorting-searching',
     title: 'Sorting and Searching Algorithms',
     content: 'Sorting and searching are crucial in optimizing data.',
   },
-  // Add more topics here
+  {
+    id: 'hashing',
+    title: 'Hashing',
+    content: 'Hashing is a technique used to uniquely identify a specific object from a group of similar objects.',
+  },
+  {
+    id: 'bit-manipulation',
+    title: 'Bit Manipulation',
+    content: 'Bit manipulation refers to the act of algorithmically manipulating bits or binary digits.',
+  },
+  {
+    id: 'heap',
+    title: 'Heap and Priority Queue',
+    content: 'A heap is a special tree-based data structure that satisfies the heap property.',
+  },
+  // Add more topics here if necessary
 ];
 
 const SearchPage: React.FC = () => {
