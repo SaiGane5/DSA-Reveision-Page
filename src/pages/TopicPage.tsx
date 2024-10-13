@@ -874,7 +874,7 @@ Bit manipulation refers to the act of algorithmically manipulating bits or binar
      a = a ^ b; // a becomes original b
      \`\`\`
    - **Checking if a number is odd or even:**
-     - Use `n & 1` to check if the least significant bit is 1 (odd) or 0 (even).
+     - Use \`n & 1\` to check if the least significant bit is 1 (odd) or 0 (even).
 
 ### Example: Counting Set Bits in an Integer
 
