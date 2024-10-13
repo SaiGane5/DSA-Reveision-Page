@@ -850,7 +850,7 @@ Design a hash map from scratch and implement the insert and get methods.
 
 Explain how you would handle collisions in a hash table.
 `
-}
+},
 'bit-manipulation': {
   title: 'Bit Manipulation',
   content: `
