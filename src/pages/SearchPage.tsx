@@ -30,7 +30,7 @@ const topics = [
     content: 'Hashing is a technique used to uniquely identify a specific object from a group of similar objects.',
   },
   {
-    id: 'bitmanipulation',
+    id: 'bit-manipulation',
     title: 'Bit Manipulation',
     content: 'Bit manipulation refers to the act of algorithmically manipulating bits or binary digits.',
   },
