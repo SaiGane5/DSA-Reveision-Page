@@ -30,7 +30,7 @@ const topics = [
     content: 'Hashing is a technique used to uniquely identify a specific object from a group of similar objects.',
   },
   {
-    id: 'bit-manipulation',
+    id: 'bitmanipulation',
     title: 'Bit Manipulation',
     content: 'Bit manipulation refers to the act of algorithmically manipulating bits or binary digits.',
   },
@@ -38,6 +38,31 @@ const topics = [
     id: 'heap',
     title: 'Heap and Priority Queue',
     content: 'A heap is a special tree-based data structure that satisfies the heap property.',
+  },
+  {
+    id: 'variable',
+    title: 'Variables and Data Types',
+    content: 'Variables are symbolic names used to store data that can be used and manipulated in programs',
+  },
+  {
+    id: 'stacks-queues',
+    title: 'Stacks and Queues',
+    content: 'Stacks and queues are linear data structures used for managing data in a sequential manner',
+  },
+  {
+    id: 'trees-graphs',
+    title: 'Trees and Graphs',
+    content: 'Trees and graphs are hierarchical and interconnected data structures',
+  },
+  {
+    id: 'dynamic-programming',
+    title: 'Dynamic Programming',
+    content: 'Dynamic Programming (DP) is an optimization technique that breaks a problem into smaller overlapping subproblems and stores their solutions to avoid redundant computations',
+  },
+  {
+    id: 'greedy',
+    title: 'Greedy Algorithms',
+    content: 'Greedy algorithms build up a solution piece by piece, always choosing the next piece that offers the most immediate benefit',
   },
   // Add more topics here if necessary
 ];
